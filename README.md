@@ -34,3 +34,12 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+
+## 
+Notes on developing : 
+Use TailwindCSS for styling and implement scroll-based fade-in effects using Intersection Observer
+
+- I made Public folder outside of App root and all images used in it are gitignored so in case of using fork the repository, you'll need your own images 
+
+--optional
