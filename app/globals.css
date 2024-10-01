@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 :root {
-  --background: #ffffff;
+  --background: #e3ddbe;
   --foreground: #171717;
   --font-chakra-petch: 'Chakra Petch', sans-serif;
   --font-caveat: 'Caveat', cursive;
@@ -17,12 +17,13 @@
   font-family: var(--font-caveat);
 }
 
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
   }
-}
+} */
+/* -> I :disabled dark mode */
 
 body {
   color: var(--foreground);

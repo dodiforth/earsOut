@@ -1,3 +1,4 @@
+import { useState, useEffect } from "react";
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
@@ -27,7 +28,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${caveat.variable} antialiased bg-background text-foreground`}
+        className={`${caveat.variable} ${chakraPetch.variable} antialiased bg-background text-foreground`}
       >
         {children}
       </body>
