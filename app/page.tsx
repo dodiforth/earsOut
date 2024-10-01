@@ -1,4 +1,3 @@
-import { useState, useEffect } from "react";
 import Banner from "./components/Banner";
 import ArtSection from "./components/ArtSection";
 import ImageCarousel from "./components/ImageCarousel";
