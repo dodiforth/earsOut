@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import Banner from "./components/Banner";
 import ArtSection from "./components/ArtSection";
 import ImageCarousel from "./components/ImageCarousel";
+import Footer from "./components/Footer";
 
 export default function Home() {
   return (
@@ -16,40 +17,40 @@ export default function Home() {
         <ArtSection
           imageSrc="/images/drawing/ex2.png"
           altText="Art Work 2"
-          phrase="Every artist was first an amateur."
+          phrase="Your creativity and courage in everything you do have been a constant source of inspiration."
           reverse
         />
         <ArtSection
           imageSrc="/images/drawing/ex3.png"
           altText="Art Work 3"
-          phrase="Creativity takes courage."
+          phrase=" I appreciate so many things about you, especially the way you share your art and your thoughts so openly. "
         />
         <ArtSection
           imageSrc="/images/drawing/ex04.png"
           altText="Art Work 4"
-          phrase="Creativity takes courage."
+          phrase="So, I thought, why not create something for you in return?"
           reverse
         />
         <ArtSection
           imageSrc="/images/drawing/ex05.png"
           altText="Art Work 5"
-          phrase="Creativity takes courage."
+          phrase="Consider this a small tribute to your artistry and the impact you’ve had on others, myself included."
         />
         <ArtSection
           imageSrc="/images/drawing/ex06.png"
           altText="Art Work 5"
-          phrase="Creativity takes courage."
+          phrase="May your birthday be filled with as much creativity and beauty as you bring to the world."
           reverse
         />
         <ArtSection
           imageSrc="/images/drawing/ex07.png"
           altText="Art Work 5"
-          phrase="Creativity takes courage."
+          phrase="Enjoy every moment, and keep inspiring us all."
         />
         <ArtSection
           imageSrc="/images/drawing/ex08.png"
           altText="Art Work 5"
-          phrase="Creativity takes courage."
+          phrase="Like you always have been. - from your biggest fan in the world"
           reverse
         />
         <ImageCarousel
@@ -61,6 +62,7 @@ export default function Home() {
           ]}
         />
       </main>
+      <Footer />
     </div>
   );
 }

@@ -51,7 +51,7 @@ export default function ArtSection({ imageSrc, altText, phrase, reverse = false 
                 height={400}
                 className="w-80 h-80 object-cover rounded-lg shadow-lg"
             />
-            <p className="mt-4 sm:mt-0 sm:mx-8 text-center sm:text-left text-lg font-medium">
+            <p className="mt-4 sm:mt-0 sm:mx-8 text-center sm:text-left text-2xl font-medium">
                 {phrase}
             </p>
         </div>
