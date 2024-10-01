@@ -43,3 +43,21 @@ Use TailwindCSS for styling and implement scroll-based fade-in effects using Int
 - I made Public folder outside of App root and all images used in it are gitignored so in case of using fork the repository, you'll need your own images 
 
 --optional
+
+
+- the default font is Caveat and only specific elements use Chakra_Petch
+In this setup:
+The default font for the application is Caveat.
+Use the font-chakra-petch class on specific elements to apply the Chakra_Petch font.
+
+>/* ExampleComponent.jsx */
+
+export default function ExampleComponent() {
+  return (
+    <div>
+      <h1 className="font-chakra-petch">Happy Birthday Christine</h1>
+      <p>Wishing you a wonderful day filled with joy and surprises!</p>
+    </div>
+  );
+}
+>

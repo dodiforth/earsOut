@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <div className="flex flex-col">
       <Banner />
-      <main className="flex flex-col items-center justify-center px-4 sm:px-20">
+      <main className="font-caveat flex flex-col items-center justify-center px-4 sm:px-20">
         <ArtSection
           imageSrc="/images/drawing/ex1.png"
           altText="Art Work 1"

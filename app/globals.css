@@ -5,6 +5,16 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --font-chakra-petch: 'Chakra Petch', sans-serif;
+  --font-caveat: 'Caveat', cursive;
+}
+
+.font-chakra-petch {
+  font-family: var(--font-chakra-petch);
+}
+
+.font-caveat {
+  font-family: var(--font-caveat);
 }
 
 @media (prefers-color-scheme: dark) {

@@ -2,20 +2,21 @@ import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
 
-const geistSans = localFont({
-  src: "./fonts/GeistVF.woff",
-  variable: "--font-geist-sans",
-  weight: "100 900",
+const chakraPetch = localFont({
+  src: "./fonts/Chakra_Petch/ChakraPetch-Regular.ttf", // Update the path and filename if different
+  variable: "--font-chakra-petch",
+  weight: "400", // Adjust based on your font files
 });
-const geistMono = localFont({
-  src: "./fonts/GeistMonoVF.woff",
-  variable: "--font-geist-mono",
-  weight: "100 900",
+
+const caveat = localFont({
+  src: "./fonts/Caveat/static/Caveat-Regular.ttf", // Update the path and filename if different
+  variable: "--font-caveat",
+  weight: "400", // Adjust based on your font files
 });
 
 export const metadata: Metadata = {
   title: "Für Christine F.",
-  description: "A collection of art works celebrating Christine's birthday.",
+  description: "Welcome to the Club Christine ;)",
 };
 
 export default function RootLayout({
@@ -26,7 +27,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-background text-foreground`}
+        className={`${caveat.variable} antialiased bg-background text-foreground`}
       >
         {children}
       </body>

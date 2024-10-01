@@ -13,7 +13,7 @@ export default function Banner() {
             />
             <div className="absolute inset-0 flex items-center justify-center">
                 <div className="text-center text-white">
-                    <h1 className="text-4xl sm:text-6xl font-semibold">Happy Birthday Christine</h1>
+                    <h1 className="font-chakra-petch text-4xl sm:text-6xl font-semibold">Happy Birthday Christine</h1>
                 </div>
             </div>
             {/* Wave Edge 물결무늬 - 애니메이션 */}
